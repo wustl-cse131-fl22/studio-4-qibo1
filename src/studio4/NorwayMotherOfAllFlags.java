@@ -29,12 +29,23 @@ public class NorwayMotherOfAllFlags {
 	}
 
 	public static void france() {
+		StdDraw.clear();
 		
+		StdDraw.setXscale(0, 90);
+		StdDraw.setYscale(0, 100);
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(75, 50, 15, 50);
+		StdDraw.setPenColor(0, 0, 127);
+		StdDraw.filledRectangle(15, 50, 15, 50);
 		// TODO
 	}
 
 	public static void indonesia() {
-		
+		StdDraw.clear();
+		StdDraw.setXscale(0, 100);
+		StdDraw.setYscale(0, 100);
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(50, 75, 50, 25);
 		// TODO
 	}
 
